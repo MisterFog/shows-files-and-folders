@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 class File extends Component {
     render() {
-        const { name, mimeType } = this.props;
+        const { name } = this.props;
         return (
             <div>
-                {name} ({mimeType})
+                {name}
             </div>
         );
     }

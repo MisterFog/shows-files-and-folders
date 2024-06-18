@@ -17,7 +17,7 @@ class Folder extends Component {
         const { isOpen } = this.state;
 
         return (
-            <div style={{marginTop: '0.5rem'}}>
+            <div>
                 <div onClick={this.toggleFolder} style={{ cursor: 'pointer' }}>
                     {isOpen ? '[-] ' : '[+] '} {name}
                 </div>

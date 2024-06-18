@@ -69,7 +69,7 @@ class View extends Component {
                     onChange={this.handleSearch}
 					className='search'
                 />
-                <div>
+                <div className='data'>
                     {this.renderTree(filteredData)}
                 </div>
             </div>
